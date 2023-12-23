@@ -17,7 +17,7 @@ Components:
                MovieInfo.Component.jsx 
 >> Navbar Navbar.Componenet.jsx 
                  MovieNavbar.Component.jsx
->> PaymenModal PaymentComponent.jsx 
+>> PaymentModal PaymentComponent.jsx 
 >> PlayFilters Filters.Componenet.jsx 
 >> Poster Poster.Componenet.jsx 
 >> PosterSlider PosterSliderComponenet.jsx
