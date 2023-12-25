@@ -4,7 +4,6 @@ import React, { useState } from "react";
 import DefaultLayoutHoc from "../layout/Default.layout";
 
 // Components
-
 import HeroCarousel from "../components/HeroCarousel/HeroCarousel.Component";
 import PosterSlider from "../components/PosterSlider/PosterSlider.Component";
 import EntertainmentCard from "../components/Entertainment/EntertainmentCard.Component";
@@ -25,8 +24,8 @@ const HomePage = () => {
       </div>
       <div className="container mx-auto px-4 md:px-12 my-8">
         <PosterSlider
-          tittle="RecommendedMovies"
-          subject="List of recommended movies"
+          title="RecommendedMovies"
+          subtitle="List of recommended movies"
           posters={recommendedMovies}
           isDark={false}
         />
@@ -34,24 +33,20 @@ const HomePage = () => {
       <div className="bg-premier-800 py-12">
         <div className="container mx-auto px-4 md:px-12 my-8 flex flex-col gap-3">
           <div className="hidden md:flex">
-            <img
-              src=""
-              className="w-full h-full"
-              alt="Rupay"
-            />
+            <img src="" className="w-full h-full" alt="Rupay" />
           </div>
           <PosterSlider
-            tittle="Preimers"
-            subject="Brand new releases every friday"
+            title="Premiers"
+            subtitle="Brand new releases every friday"
             posters={premierMovies}
             isDark={true}
           />
-        </div>   
+        </div>
       </div>
       <div className="container mx-auto px-4 md:px-12 my-8 flex flex-col gap-3">
-      <PosterSlider
-          tittle="Online Streaming Events"
-          subject="Online Stream Events"
+        <PosterSlider
+          title="Online Streaming Events"
+          subtitle="Online Stream Events"
           posters={onlineStreamEvents}
           isDark={false}
         />

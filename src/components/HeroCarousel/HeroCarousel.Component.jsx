@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import HeroSlider from "react-slick";
+import { NextArrow, PrevArrow } from "./Arrow.Component";
 
 const HeroCarousel = () => {
   const [images, setimages] = useState([
@@ -40,13 +41,17 @@ const HeroCarousel = () => {
   ]);
 
   const settingsLG = {
+    dots : true,
     arrows : true,
     speed: 500,
-    slidesToShow: 1,
+    slidesToShow: 3,
     slidesToScroll: 1,
+    autoplay : true,
+    autoplaySpeed : true,
     infinite: true,
-    nextArrow: ,
-    preArrow: ,
+    cssEase : "linear",
+    nextArrow: <NextArrow />,
+    preArrow: <PrevArrow />,
   };
   const settings = {
     arrows : true,
@@ -54,8 +59,8 @@ const HeroCarousel = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
     infinite: true,
-    nextArrow: ,
-    preArrow: ,
+    nextArrow:<NextArrow />, 
+    preArrow: <PrevArrow />,
   };
 
   return (

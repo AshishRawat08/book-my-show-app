@@ -1,9 +1,20 @@
-import React from 'react'
+import React from "react";
 
-const Arrow.Component = () => {
-  return (
-    <div>Arrow.Component</div>
-  )
+
+export function NextArrow(props){
+    return(
+        <>
+            <div className={props.className} style={{color: "black", padding: "10px"}} onClick={props.onClick}></div>
+        </>
+    )
 }
 
-export default Arrow.Component
+
+
+export function PrevArrow(props){
+    return(
+        <>
+            <div className={props.className} style={{...props.style}} onClick={props.onClick}></div>
+        </>
+    )
+}
