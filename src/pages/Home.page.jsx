@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
+import axios from "axios";
 
 // LayoutHOC
 import DefaultLayoutHoc from "../layout/Default.layout";
@@ -13,6 +14,17 @@ const HomePage = () => {
   const [premierMovies, setPremierMovies] = useState([]);
   const [onlineStreamEvents, setOnlineStreamEvents] = useState([]);
 
+  // useEffect
+  useEffect(() => {
+    const requestTopRatedMovies = async () => {
+      const getTopratedMovies = await axios.get(
+        "https://api.themoviedb.org/3/movie/top_rated?api_key=bbde881baea49ba6e9335403a1ae7241"
+      );
+      setRecommendedMovies(getTopratedMovies.data.results);
+    };
+    requestTopRatedMovies();
+  }, [] );
+
   return (
     <>
       <HeroCarousel />
@@ -24,7 +36,7 @@ const HomePage = () => {
       </div>
       <div className="container mx-auto px-4 md:px-12 my-8">
         <PosterSlider
-          title="RecommendedMovies"
+          title="Recommended Movies"
           subtitle="List of recommended movies"
           posters={recommendedMovies}
           isDark={false}
