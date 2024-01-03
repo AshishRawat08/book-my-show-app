@@ -1,5 +1,5 @@
 import React from "react";
-import { BiChevronDown, BiSearch } from "react-icons/bi";
+import { BiChevronDown, BiSearch, BiMenu } from "react-icons/bi";
 
 function NavSm() {
   return (
@@ -24,7 +24,11 @@ function NavMd() {
   return (
     <>
       <div className="w-10 h-10">
-        <img src="" alt="logo" className="w-full h-full" />
+        <img
+          src="https://i.ibb.co/zPBYW3H/imgbin-bookmyshow-office-android-ticket-png.png"
+          alt="logo"
+          className="w-full h-full"
+        />
       </div>
       <div className="w-full flex items-center gap-3 bg-white px-3 py-1 rounded-md">
         <BiSearch />
@@ -43,7 +47,11 @@ function NavLg() {
       <div className="container flex mx-auto px-4 items-center justify-between">
         <div className="flex items-center w-1/2 gap-3">
           <div className="w-10 h-10">
-            <img src="" alt="logo" className="w-full h-full" />
+            <img
+              src="https://i.ibb.co/zPBYW3H/imgbin-bookmyshow-office-android-ticket-png.png"
+              alt="logo"
+              className="w-full h-full"
+            />
           </div>
           <div className="w-full flex items-center gap-3 bg-white px-3 py-1 rounded-md">
             <BiSearch />
@@ -52,6 +60,27 @@ function NavLg() {
               className="w-full bg-transparent border-none focus: outline-none"
               placeholder="Search for movies, events, plays, sports and activites"
             />
+          </div>
+        </div>
+        <div className="flex items-center gap-3">
+          <select data-te-select-init className="border-none bg-darkBackground-700 text-gray-200 text-base flex items-center cursor-pointer hover:text-white">
+            <option value="1">Bangalore</option>
+            <option value="2">Delhi</option>
+            <option value="3">Noida</option>
+            <option value="4">Gurugram</option>
+            <option value="5">Kolkata</option>
+            <option value="6">Goa</option>
+            <option value="7">Pune</option>
+            <option value="8">Nainital</option>
+          </select>
+          {/* <span className="text-gray-200 text-base flex items-center cursor-pointer hover:text-white">
+            Nainital <BiChevronDown />
+          </span> */}
+          <button className="bg-red-600 text-white px-2 py-1 text-sm rounded">
+            Sign In
+          </button>
+          <div className="w-8 h-8 text-white">
+            <BiMenu className="w-full h-full" />
           </div>
         </div>
       </div>

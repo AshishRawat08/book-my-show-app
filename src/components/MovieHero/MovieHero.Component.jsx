@@ -17,7 +17,7 @@ const MovieHero = () => {
             src={`https://image.tmdb.org/t/p/original${movie.poster_path}`}
             alt="Cover Poster"
             className="m-4 rounded"
-            style={{ width: "calc(100%-2rem)" }}
+            style={{ width: "calc(100%-2rem) " }}
           />
         </div>
         <div className="flex flex-col gap-3 lg:hidden">
@@ -32,14 +32,14 @@ const MovieHero = () => {
           </div>
           <div className="flex items-center gap-3 md:px-4 md:w-screen text-xl px-4">
             <button className="bg-red-500 w-full py-3 text-white font-semibold rounded-lg">
-              Rent $149
+              Rent ₹149
             </button>
             <button className="bg-red-500 w-full py-3 text-white font-semibold rounded-lg">
-              Buy $999
+              Buy ₹999
             </button>
           </div>
         </div>
-        {/* ctrl+/ */}
+
         {/* Large Screen Size i.e., Laptop */}
         <div
           className="relative hidden w-full lg:block"
@@ -68,6 +68,7 @@ const MovieHero = () => {
               src={`https://image.tmdb.org/t/p/original${movie.backdrop_path}`}
               alt="Backdrop poster"
               className="w-full h-full object-cover object-center"
+              
             />
           </div>
         </div>
