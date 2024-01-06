@@ -3,7 +3,7 @@ import { RiCustomerService2Fill } from "react-icons/ri";
 import { GiTicket } from "react-icons/gi";
 import { SlEnvolopeLetter } from "react-icons/sl";
 import { Link } from "react-router-dom";
-import { FaFacebookF } from "react-icons/fa";
+import { FaFacebookF, FaInstagram, FaYoutube, FaPinterest, FaLinkedin, FaHeart, FaRegCopyright  } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 
 const Footer = () => {
@@ -33,31 +33,31 @@ const Footer = () => {
             </h5>
             <div className="text-xs pl-1 pt-2 text-gray-500">
               <span className="pl-2  pr-2 border-r-2 border-gray-500 cursor-pointer hover:text-gray-300">
-                <Link to="/">Oppenheimer</Link>
+                <Link to="#">Oppenheimer</Link>
               </span>
               <span className="pl-2  pr-2 border-r-2 border-gray-500 cursor-pointer hover:text-gray-300">
-                <Link to="/">Barbie</Link>
+                <Link to="#">Barbie</Link>
               </span>
               <span className="pl-2  pr-2 border-r-2 border-gray-500 cursor-pointer hover:text-gray-300">
-                <Link to="/">Killers of the Flower Moon</Link>
+                <Link to="#">Killers of the Flower Moon</Link>
               </span>
               <span className="pl-2  pr-2 border-r-2 border-gray-500 cursor-pointer hover:text-gray-300">
-                <Link to="/">Extraction II</Link>
+                <Link to="#">Extraction II</Link>
               </span>
               <span className="pl-2  pr-2 border-r-2 border-gray-500 cursor-pointer hover:text-gray-300">
-                <Link to="/">Wednesday </Link>
+                <Link to="#">Wednesday </Link>
               </span>
               <span className="pl-2  pr-2 border-r-2 border-gray-500 cursor-pointer hover:text-gray-300">
-                <Link to="/">The Night Agent </Link>
+                <Link to="#">The Night Agent </Link>
               </span>
               <span className="pl-2  pr-2 border-r-2 border-gray-500 cursor-pointer hover:text-gray-300">
-                <Link to="/">Ginny & Georgia </Link>
+                <Link to="#">Ginny & Georgia </Link>
               </span>
               <span className="pl-2  pr-2 border-r-2 border-gray-500 cursor-pointer hover:text-gray-300">
-                <Link to="/">The Glory</Link>
+                <Link to="#">The Glory</Link>
               </span>
               <span className="pl-2  pr-2 border-r-2 border-gray-500 cursor-pointer hover:text-gray-300">
-                <Link to="/"> Pathaan</Link>
+                <Link to="#"> Pathaan</Link>
               </span>
             </div>
           </div>
@@ -65,34 +65,34 @@ const Footer = () => {
             <h5 className="text-sm pl-2 pt-3">Upcoming Movies in Bangalore</h5>
             <div className="text-xs pl-1 pt-1 text-gray-500">
               <span className="pl-2  pr-2 border-r-2 border-gray-500 cursor-pointer  hover:text-gray-300">
-                <Link to="/"> Tauba Tera Jalwa</Link>
+                <Link to="#"> Tauba Tera Jalwa</Link>
               </span>
               <span className="pl-2  pr-2 border-r-2 border-gray-500 cursor-pointer  hover:text-gray-300">
-                <Link to="/">Merry Christmas[</Link>
+                <Link to="#">Merry Christmas[</Link>
               </span>
               <span className="pl-2  pr-2 border-r-2 border-gray-500 cursor-pointer  hover:text-gray-300">
-                <Link to="/">Dashmi</Link>
+                <Link to="#">Dashmi</Link>
               </span>
               <span className="pl-2  pr-2 border-r-2 border-gray-500 cursor-pointer  hover:text-gray-300">
-                <Link to="/">Main Atal Hoon</Link>
+                <Link to="#">Main Atal Hoon</Link>
               </span>
               <span className="pl-2  pr-2 border-r-2 border-gray-500 cursor-pointer  hover:text-gray-300">
-                <Link to="/">Fighter</Link>
+                <Link to="#">Fighter</Link>
               </span>
               <span className="pl-2  pr-2 border-r-2 border-gray-500 cursor-pointer  hover:text-gray-300">
-                <Link to="/">Section 108</Link>
+                <Link to="#">Section 108</Link>
               </span>
               <span className="pl-2  pr-2 border-r-2 border-gray-500 cursor-pointer  hover:text-gray-300">
-                <Link to="/">Untitled film</Link>
+                <Link to="#">Untitled film</Link>
               </span>
               <span className="pl-2  pr-2 border-r-2 border-gray-500 cursor-pointer  hover:text-gray-300">
-                <Link to="/">Operation Valentine</Link>
+                <Link to="#">Operation Valentine</Link>
               </span>
               <span className="pl-2  pr-2 border-r-2 border-gray-500 cursor-pointer  hover:text-gray-300">
-                <Link to="/"> The Crew</Link>
+                <Link to="#"> The Crew</Link>
               </span>
               <span className="pl-2  pr-2 border-r-2 border-gray-500 cursor-pointer  hover:text-gray-300">
-                <Link to="/">Yodha</Link>
+                <Link to="#">Yodha</Link>
               </span>
             </div>
           </div>
@@ -100,43 +100,43 @@ const Footer = () => {
             <h5 className="text-sm pl-2 pt-3">Movies By Genre</h5>
             <div className="text-xs pl-1 pt-2 text-gray-500">
               <span className="pl-2  pr-2 border-r-2 border-gray-500 cursor-pointer hover:text-gray-300">
-                <Link to="/">Horror</Link>
+                <Link to="#">Horror</Link>
               </span>
               <span className="pl-2  pr-2 border-r-2 border-gray-500 cursor-pointer hover:text-gray-300">
-                <Link to="/">Action</Link>
+                <Link to="#">Action</Link>
               </span>
               <span className="pl-2  pr-2 border-r-2 border-gray-500 cursor-pointer hover:text-gray-300">
-                <Link to="/">Adventure</Link>
+                <Link to="#">Adventure</Link>
               </span>
               <span className="pl-2  pr-2 border-r-2 border-gray-500 cursor-pointer hover:text-gray-300">
-                <Link to="/">Comedy</Link>
+                <Link to="#">Comedy</Link>
               </span>
               <span className="pl-2  pr-2 border-r-2 border-gray-500 cursor-pointer hover:text-gray-300">
-                <Link to="/">Crime and mystery </Link>
+                <Link to="#">Crime and mystery </Link>
               </span>
               <span className="pl-2  pr-2 border-r-2 border-gray-500 cursor-pointer hover:text-gray-300">
-                <Link to="/">Historical</Link>
+                <Link to="#">Historical</Link>
               </span>
               <span className="pl-2  pr-2 border-r-2 border-gray-500 cursor-pointer hover:text-gray-300">
-                <Link to="/">Romance</Link>
+                <Link to="#">Romance</Link>
               </span>
               <span className="pl-2  pr-2 border-r-2 border-gray-500 cursor-pointer hover:text-gray-300">
-                <Link to="/">Science fiction</Link>
+                <Link to="#">Science fiction</Link>
               </span>
               <span className="pl-2  pr-2 border-r-2 border-gray-500 cursor-pointer hover:text-gray-300">
-                <Link to="/"> Speculative</Link>
+                <Link to="#"> Speculative</Link>
               </span>
               <span className="pl-2  pr-2 border-r-2 border-gray-500 cursor-pointer hover:text-gray-300">
-                <Link to="/"> Thriller</Link>
+                <Link to="#"> Thriller</Link>
               </span>
               <span className="pl-2  pr-2 border-r-2 border-gray-500 cursor-pointer hover:text-gray-300">
-                <Link to="/"> Animation</Link>
+                <Link to="#"> Animation</Link>
               </span>
               <span className="pl-2  pr-2 border-r-2 border-gray-500 cursor-pointer hover:text-gray-300">
-                <Link to="/"> Drama</Link>
+                <Link to="#"> Drama</Link>
               </span>
               <span className="pl-2  pr-2 border-r-2 border-gray-500 cursor-pointer hover:text-gray-300">
-                <Link to="/"> Simulation</Link>
+                <Link to="#"> Simulation</Link>
               </span>
             </div>
           </div>
@@ -144,25 +144,25 @@ const Footer = () => {
             <h5 className="text-sm pl-2 pt-3">Sports Event in Bangalore</h5>
             <div className="text-xs pl-1 pt-2 text-gray-500">
               <span className="pl-2  pr-2 border-r-2 border-gray-500 cursor-pointer hover:text-gray-300">
-                <Link to="/">Boxing</Link>
+                <Link to="#">Boxing</Link>
               </span>
               <span className="pl-2  pr-2 border-r-2 border-gray-500 cursor-pointer hover:text-gray-300">
-                <Link to="/">Badminton</Link>
+                <Link to="#">Badminton</Link>
               </span>
               <span className="pl-2  pr-2 border-r-2 border-gray-500 cursor-pointer hover:text-gray-300">
-                <Link to="/">Gymnastics</Link>
+                <Link to="#">Gymnastics</Link>
               </span>
               <span className="pl-2  pr-2 border-r-2 border-gray-500 cursor-pointer hover:text-gray-300">
-                <Link to="/">Archery</Link>
+                <Link to="#">Archery</Link>
               </span>
               <span className="pl-2  pr-2 border-r-2 border-gray-500 cursor-pointer hover:text-gray-300">
-                <Link to="/">Volleyball </Link>
+                <Link to="#">Volleyball </Link>
               </span>
               <span className="pl-2  pr-2 border-r-2 border-gray-500 cursor-pointer hover:text-gray-300">
-                <Link to="/">Table Tennis</Link>
+                <Link to="#">Table Tennis</Link>
               </span>
               <span className="pl-2  pr-2 border-r-2 border-gray-500 cursor-pointer hover:text-gray-300">
-                <Link to="/">Swimming</Link>
+                <Link to="#">Swimming</Link>
               </span>
             </div>
           </div>
@@ -170,37 +170,37 @@ const Footer = () => {
             <h5 className="text-sm pl-2 pt-3">Events In Top Cities </h5>
             <div className="text-xs pl-1 pt-2 text-gray-500">
               <span className="pl-2  pr-2 border-r-2 border-gray-500 cursor-pointer hover:text-gray-300">
-                <Link to="/">Event in Bangalore</Link>
+                <Link to="#">Event in Bangalore</Link>
               </span>
               <span className="pl-2  pr-2 border-r-2 border-gray-500 cursor-pointer hover:text-gray-300">
-                <Link to="/">Event in Mumbai</Link>
+                <Link to="#">Event in Mumbai</Link>
               </span>
               <span className="pl-2  pr-2 border-r-2 border-gray-500 cursor-pointer hover:text-gray-300">
-                <Link to="/">Event in Delhi</Link>
+                <Link to="#">Event in Delhi</Link>
               </span>
               <span className="pl-2  pr-2 border-r-2 border-gray-500 cursor-pointer hover:text-gray-300">
-                <Link to="/">Event in Kolkata</Link>
+                <Link to="#">Event in Kolkata</Link>
               </span>
               <span className="pl-2  pr-2 border-r-2 border-gray-500 cursor-pointer hover:text-gray-300">
-                <Link to="/">Event in Chennai</Link>
+                <Link to="#">Event in Chennai</Link>
               </span>
               <span className="pl-2  pr-2 border-r-2 border-gray-500 cursor-pointer hover:text-gray-300">
-                <Link to="/">Event in Ahemdabad</Link>
+                <Link to="#">Event in Ahemdabad</Link>
               </span>
               <span className="pl-2  pr-2 border-r-2 border-gray-500 cursor-pointer hover:text-gray-300">
-                <Link to="/">Event in Hyderabad</Link>
+                <Link to="#">Event in Hyderabad</Link>
               </span>
               <span className="pl-2  pr-2 border-r-2 border-gray-500 cursor-pointer hover:text-gray-300">
-                <Link to="/">Event in Pune</Link>
+                <Link to="#">Event in Pune</Link>
               </span>
               <span className="pl-2  pr-2 border-r-2 border-gray-500 cursor-pointer hover:text-gray-300">
-                <Link to="/">Event in Kochi</Link>
+                <Link to="#">Event in Kochi</Link>
               </span>
               <span className="pl-2  pr-2 border-r-2 border-gray-500 cursor-pointer hover:text-gray-300">
-                <Link to="/">Event in Noida</Link>
+                <Link to="#">Event in Noida</Link>
               </span>
               <span className="pl-2  pr-2 border-r-2 border-gray-500 cursor-pointer hover:text-gray-300">
-                <Link to="/">Event in Gurugram</Link>
+                <Link to="#">Event in Gurugram</Link>
               </span>
             </div>
           </div>
@@ -208,34 +208,34 @@ const Footer = () => {
             <h5 className="text-sm pl-2 pt-3">Cinemas In Top Cities</h5>
             <div className="text-xs pl-1 pt-2 text-gray-500">
               <span className="pl-2  pr-2 border-r-2 border-gray-500 cursor-pointer hover:text-gray-300">
-                <Link to="/">Cinemas in Bangalore</Link>
+                <Link to="#">Cinemas in Bangalore</Link>
               </span>
               <span className="pl-2  pr-2 border-r-2 border-gray-500 cursor-pointer hover:text-gray-300">
-                <Link to="/">Cinemas in Mumbai</Link>
+                <Link to="#">Cinemas in Mumbai</Link>
               </span>
               <span className="pl-2  pr-2 border-r-2 border-gray-500 cursor-pointer hover:text-gray-300">
-                <Link to="/">Cinemas in Delhi</Link>
+                <Link to="#">Cinemas in Delhi</Link>
               </span>
               <span className="pl-2  pr-2 border-r-2 border-gray-500 cursor-pointer hover:text-gray-300">
-                <Link to="/">Cinemas in Kolkata</Link>
+                <Link to="#">Cinemas in Kolkata</Link>
               </span>
               <span className="pl-2  pr-2 border-r-2 border-gray-500 cursor-pointer hover:text-gray-300">
-                <Link to="/">Cinemas in Kochi</Link>
+                <Link to="#">Cinemas in Kochi</Link>
               </span>
               <span className="pl-2  pr-2 border-r-2 border-gray-500 cursor-pointer hover:text-gray-300">
-                <Link to="/">Cinemas in Hyderabad</Link>
+                <Link to="#">Cinemas in Hyderabad</Link>
               </span>
               <span className="pl-2  pr-2 border-r-2 border-gray-500 cursor-pointer hover:text-gray-300">
-                <Link to="/">Cinemas in Pune</Link>
+                <Link to="#">Cinemas in Pune</Link>
               </span>
               <span className="pl-2  pr-2 border-r-2 border-gray-500 cursor-pointer hover:text-gray-300">
-                <Link to="/">Cinemas in Kochi</Link>
+                <Link to="#">Cinemas in Kochi</Link>
               </span>
               <span className="pl-2  pr-2 border-r-2 border-gray-500 cursor-pointer hover:text-gray-300">
-                <Link to="/">Cinemas in Noida</Link>
+                <Link to="#">Cinemas in Noida</Link>
               </span>
               <span className="pl-2  pr-2 border-r-2 border-gray-500 cursor-pointer hover:text-gray-300">
-                <Link to="/">Cinemas in Gurugram</Link>
+                <Link to="#">Cinemas in Gurugram</Link>
               </span>
             </div>
           </div>
@@ -243,31 +243,31 @@ const Footer = () => {
             <h5 className="text-sm pl-2 pt-3">Plays In Top Cities</h5>
             <div className="text-xs pl-1 pt-2 text-gray-500">
               <span className="pl-2  pr-2 border-r-2 border-gray-500 cursor-pointer hover:text-gray-300">
-                <Link to="/">Plays in Bangalore</Link>
+                <Link to="#">Plays in Bangalore</Link>
               </span>
               <span className="pl-2  pr-2 border-r-2 border-gray-500 cursor-pointer hover:text-gray-300">
-                <Link to="/">Plays in Mumbai</Link>
+                <Link to="#">Plays in Mumbai</Link>
               </span>
               <span className="pl-2  pr-2 border-r-2 border-gray-500 cursor-pointer hover:text-gray-300">
-                <Link to="/">Plays in Delhi</Link>
+                <Link to="#">Plays in Delhi</Link>
               </span>
               <span className="pl-2  pr-2 border-r-2 border-gray-500 cursor-pointer hover:text-gray-300">
-                <Link to="/">Plays in Kolkata</Link>
+                <Link to="#">Plays in Kolkata</Link>
               </span>
               <span className="pl-2  pr-2 border-r-2 border-gray-500 cursor-pointer hover:text-gray-300">
-                <Link to="/">Plays in Kochi</Link>
+                <Link to="#">Plays in Kochi</Link>
               </span>
               <span className="pl-2  pr-2 border-r-2 border-gray-500 cursor-pointer hover:text-gray-300">
-                <Link to="/">Plays in Gurugram</Link>
+                <Link to="#">Plays in Gurugram</Link>
               </span>
               <span className="pl-2  pr-2 border-r-2 border-gray-500 cursor-pointer hover:text-gray-300">
-                <Link to="/">Plays in Kochi</Link>
+                <Link to="#">Plays in Kochi</Link>
               </span>
               <span className="pl-2  pr-2 border-r-2 border-gray-500 cursor-pointer hover:text-gray-300">
-                <Link to="/">Plays in Noida</Link>
+                <Link to="#">Plays in Noida</Link>
               </span>
               <span className="pl-2  pr-2 border-r-2 border-gray-500 cursor-pointer hover:text-gray-300">
-                <Link to="/">Plays in Dehradun</Link>
+                <Link to="#">Plays in Dehradun</Link>
               </span>
             </div>
           </div>
@@ -275,28 +275,28 @@ const Footer = () => {
             <h5 className="text-sm pl-2 pt-3">Activities In Top Cities</h5>
             <div className="text-xs pl-1 pt-2 text-gray-500">
               <span className="pl-2  pr-2 border-r-2 border-gray-500 cursor-pointer hover:text-gray-300">
-                <Link to="/">Things to do in Bangalore</Link>
+                <Link to="#">Things to do in Bangalore</Link>
               </span>
               <span className="pl-2  pr-2 border-r-2 border-gray-500 cursor-pointer hover:text-gray-300">
-                <Link to="/">Things to do in Delhi</Link>
+                <Link to="#">Things to do in Delhi</Link>
               </span>
               <span className="pl-2  pr-2 border-r-2 border-gray-500 cursor-pointer hover:text-gray-300">
-                <Link to="/">Things to do in Kolkata</Link>
+                <Link to="#">Things to do in Kolkata</Link>
               </span>
               <span className="pl-2  pr-2 border-r-2 border-gray-500 cursor-pointer hover:text-gray-300">
-                <Link to="/">Things to do in Kochi</Link>
+                <Link to="#">Things to do in Kochi</Link>
               </span>
               <span className="pl-2  pr-2 border-r-2 border-gray-500 cursor-pointer hover:text-gray-300">
-                <Link to="/">Things to do in Gurugram</Link>
+                <Link to="#">Things to do in Gurugram</Link>
               </span>
               <span className="pl-2  pr-2 border-r-2 border-gray-500 cursor-pointer hover:text-gray-300">
-                <Link to="/">Things to do in Kochi</Link>
+                <Link to="#">Things to do in Kochi</Link>
               </span>
               <span className="pl-2  pr-2 border-r-2 border-gray-500 cursor-pointer hover:text-gray-300">
-                <Link to="/">Things to do in Noida</Link>
+                <Link to="#">Things to do in Noida</Link>
               </span>
               <span className="pl-2  pr-2 border-r-2 border-gray-500 cursor-pointer hover:text-gray-300">
-                <Link to="/">Things to do in Dehradun</Link>
+                <Link to="#">Things to do in Dehradun</Link>
               </span>
             </div>
           </div>
@@ -304,31 +304,31 @@ const Footer = () => {
             <h5 className="text-sm pl-2 pt-3">Movies Now Showing</h5>
             <div className="text-xs pl-1 pt-2 text-gray-500">
               <span className="pl-2  pr-2 border-r-2 border-gray-500 cursor-pointer hover:text-gray-300">
-                <Link to="/">Aquaman and the Lost Kingdom.</Link>
+                <Link to="#">Aquaman and the Lost Kingdom.</Link>
               </span>
               <span className="pl-2  pr-2 border-r-2 border-gray-500 cursor-pointer hover:text-gray-300">
-                <Link to="/">Godzilla Minus One</Link>
+                <Link to="#">Godzilla Minus One</Link>
               </span>
               <span className="pl-2  pr-2 border-r-2 border-gray-500 cursor-pointer hover:text-gray-300">
-                <Link to="/">The Marvels.</Link>
+                <Link to="#">The Marvels.</Link>
               </span>
               <span className="pl-2  pr-2 border-r-2 border-gray-500 cursor-pointer hover:text-gray-300">
-                <Link to="/">Extraction II</Link>
+                <Link to="#">Extraction II</Link>
               </span>
               <span className="pl-2  pr-2 border-r-2 border-gray-500 cursor-pointer hover:text-gray-300">
-                <Link to="/">Wednesday </Link>
+                <Link to="#">Wednesday </Link>
               </span>
               <span className="pl-2  pr-2 border-r-2 border-gray-500 cursor-pointer hover:text-gray-300">
-                <Link to="/">The Night Agent </Link>
+                <Link to="#">The Night Agent </Link>
               </span>
               <span className="pl-2  pr-2 border-r-2 border-gray-500 cursor-pointer hover:text-gray-300">
-                <Link to="/">Ginny & Georgia </Link>
+                <Link to="#">Ginny & Georgia </Link>
               </span>
               <span className="pl-2  pr-2 border-r-2 border-gray-500 cursor-pointer hover:text-gray-300">
-                <Link to="/">The Glory</Link>
+                <Link to="#">The Glory</Link>
               </span>
               <span className="pl-2  pr-2 border-r-2 border-gray-500 cursor-pointer hover:text-gray-300">
-                <Link to="/"> Pathaan</Link>
+                <Link to="#"> Pathaan</Link>
               </span>
             </div>
           </div>
@@ -336,51 +336,51 @@ const Footer = () => {
             <h5 className="text-sm pl-2 pt-3">Countries</h5>
             <div className="text-xs pl-1 pt-2 text-gray-500">
               <span className="pl-2  pr-2 border-r-2 border-gray-500 cursor-pointer hover:text-gray-300">
-                <Link to="/">Indonesia</Link>
+                <Link to="#">Indonesia</Link>
               </span>
               <span className="pl-2  pr-2 border-r-2 border-gray-500 cursor-pointer hover:text-gray-300">
-                <Link to="/">Singapore</Link>
+                <Link to="#">Singapore</Link>
               </span>
               <span className="pl-2  pr-2 border-r-2 border-gray-500 cursor-pointer hover:text-gray-300">
-                <Link to="/">UAE</Link>
+                <Link to="#">UAE</Link>
               </span>
               <span className="pl-2  pr-2 border-r-2 border-gray-500 cursor-pointer hover:text-gray-300">
-                <Link to="/">Shri Lanka</Link>
+                <Link to="#">Shri Lanka</Link>
               </span>
               <span className="pl-2  pr-2 border-r-2 border-gray-500 cursor-pointer hover:text-gray-300">
-                <Link to="/">West Indies </Link>
+                <Link to="#">West Indies </Link>
               </span>
             </div>
           </div>
           <div className="text-gray-400 mb-4">
             <h5 className="text-sm pl-2 pt-3">Help</h5>
             <div className="text-xs pl-1 pt-2 text-gray-500">
-              <span className="pl-2  pr-2 border-r-2 border-gray-500 cursor-pointer">
-                <Link to="/">About Us</Link>
+              <span className="pl-2  pr-2 border-r-2 border-gray-500 cursor-pointer hover:text-gray-300">
+                <Link to="#">About Us</Link>
               </span>
-              <span className="pl-2  pr-2 border-r-2 border-gray-500 cursor-pointer">
-                <Link to="/">Contact Us</Link>
+              <span className="pl-2  pr-2 border-r-2 border-gray-500 cursor-pointer hover:text-gray-300">
+                <Link to="#">Contact Us</Link>
               </span>
-              <span className="pl-2  pr-2 border-r-2 border-gray-500 cursor-pointer">
-                <Link to="/">Current Opening</Link>
+              <span className="pl-2  pr-2 border-r-2 border-gray-500 cursor-pointer hover:text-gray-300">
+                <Link to="#">Current Opening</Link>
               </span>
-              <span className="pl-2  pr-2 border-r-2 border-gray-500 cursor-pointer">
-                <Link to="/">Press Release</Link>
+              <span className="pl-2  pr-2 border-r-2 border-gray-500 cursor-pointer hover:text-gray-300">
+                <Link to="#">Press Release</Link>
               </span>
-              <span className="pl-2  pr-2 border-r-2 border-gray-500 cursor-pointer">
-                <Link to="/">Press Coverage</Link>
+              <span className="pl-2  pr-2 border-r-2 border-gray-500 cursor-pointer hover:text-gray-300">
+                <Link to="#">Press Coverage</Link>
               </span>
-              <span className="pl-2  pr-2 border-r-2 border-gray-500 cursor-pointer">
-                <Link to="/">Sitemap </Link>
+              <span className="pl-2  pr-2 border-r-2 border-gray-500 cursor-pointer hover:text-gray-300">
+                <Link to="#">Sitemap </Link>
               </span>
-              <span className="pl-2  pr-2 border-r-2 border-gray-500 cursor-pointer">
-                <Link to="/">FAQs </Link>
+              <span className="pl-2  pr-2 border-r-2 border-gray-500 cursor-pointer hover:text-gray-300">
+                <Link to="#">FAQs </Link>
               </span>
-              <span className="pl-2  pr-2 border-r-2 border-gray-500 cursor-pointer">
-                <Link to="/">Terms And Conditons </Link>
+              <span className="pl-2  pr-2 border-r-2 border-gray-500 cursor-pointer hover:text-gray-300">
+                <Link to="#">Terms And Conditons </Link>
               </span>
-              <span className="pl-2  pr-2 border-r-2 border-gray-500 cursor-pointer">
-                <Link to="/">Privacy Policy </Link>
+              <span className="pl-2  pr-2 border-r-2 border-gray-500 cursor-pointer hover:text-gray-300">
+                <Link to="#">Privacy Policy </Link>
               </span>
             </div>
           </div>
@@ -388,31 +388,31 @@ const Footer = () => {
             <h5 className="text-sm pl-2 pt-3">BookMyShow Exclusives</h5>
             <div className="text-xs pl-1 pt-2 text-gray-500">
               <span className="pl-2  pr-2 border-r-2 border-gray-500 cursor-pointer hover:text-gray-300">
-                <Link to="/">Lollapalooza India</Link>
+                <Link to="#">Lollapalooza India</Link>
               </span>
               <span className="pl-2  pr-2 border-r-2 border-gray-500 cursor-pointer hover:text-gray-300">
-                <Link to="/">Superstar</Link>
+                <Link to="#">Superstar</Link>
               </span>
               <span className="pl-2  pr-2 border-r-2 border-gray-500 cursor-pointer hover:text-gray-300">
-                <Link to="/">BookASmile</Link>
+                <Link to="#">BookASmile</Link>
               </span>
               <span className="pl-2  pr-2 border-r-2 border-gray-500 cursor-pointer hover:text-gray-300">
-                <Link to="/">Corporate Vouchers II</Link>
+                <Link to="#">Corporate Vouchers II</Link>
               </span>
               <span className="pl-2  pr-2 border-r-2 border-gray-500 cursor-pointer hover:text-gray-300">
-                <Link to="/">Gift Cards </Link>
+                <Link to="#">Gift Cards </Link>
               </span>
               <span className="pl-2  pr-2 border-r-2 border-gray-500 cursor-pointer hover:text-gray-300">
-                <Link to="/">List My Show</Link>
+                <Link to="#">List My Show</Link>
               </span>
               <span className="pl-2  pr-2 border-r-2 border-gray-500 cursor-pointer hover:text-gray-300">
-                <Link to="/">Offers</Link>
+                <Link to="#">Offers</Link>
               </span>
               <span className="pl-2  pr-2 border-r-2 border-gray-500 cursor-pointer hover:text-gray-300">
-                <Link to="/">Stream</Link>
+                <Link to="#">Stream</Link>
               </span>
               <span className="pl-2  pr-2 border-r-2 border-gray-500 cursor-pointer hover:text-gray-300">
-                <Link to="/">Trailers</Link>
+                <Link to="#">Trailers</Link>
               </span>
             </div>
           </div>
@@ -423,7 +423,7 @@ const Footer = () => {
         <div className="flex flex-col justify-center items-start">
           <div class="inline-flex items-center justify-center w-full">
             <hr class="w-4/5 h-px my-8 border-0 dark:bg-gray-400"></hr>
-            <span class="absolute inline-block px-3 left-3/2 dark:text-white bg-darkBackground-700">
+            <span class="absolute inline-block px-3 left-3/2 dark:text-white bg-darkBackground-700 cursor-pointer">
               book
               <img
                 src="https://i.ibb.co/zPBYW3H/imgbin-bookmyshow-office-android-ticket-png.png"
@@ -436,15 +436,35 @@ const Footer = () => {
         </div>
         <div className="flex flex-col justify-center items-start mt-8 mb-12">
           <div class="inline-flex items-center justify-center w-full">
-            <div className="w-12 h-12 inline-block mr-2 p-2 border-2 border-gray-600 rounded-full">
-              <FaFacebookF className="w-8 h-8 text-gray-600" />
+            <div className="w-10 h-10 inline-block mr-2 p-2 border-2 border-gray-600 rounded-full bg-darkBackground-400  hover:bg-darkBackground-100">
+            <Link to="#"> <FaFacebookF className="w-5 h-5 text-gray-600"/></Link>
+             
             </div>
-            <div className="w-12 h-12 inline-block mr-2 p-2 border-2 border-gray-600 rounded-full">
-              <FaXTwitter className="w-8 h-8 text-gray-600" />
+            <div className="w-10 h-10 inline-block mr-2 p-2 border-2 border-gray-600 rounded-full bg-darkBackground-400 hover:bg-darkBackground-100">
+            <Link to="#"> <FaXTwitter className="w-5 h-5 text-gray-600"/></Link>
+             
             </div>
-
-
+            <div className="w-10 h-10 inline-block mr-2 p-2 border-2 border-gray-600 rounded-full bg-darkBackground-400  hover:bg-darkBackground-100">
+            <Link to="#"> <FaInstagram className="w-5 h-5 text-gray-600"/></Link>
+             
+            </div>
+            <div className="w-10 h-10 inline-block mr-2 p-2 border-2 border-gray-600 rounded-full bg-darkBackground-400 hover:bg-darkBackground-100">
+            <Link to="#"> <FaYoutube className="w-5 h-5 text-gray-600"/></Link>
+              
+            </div>
+            <div className="w-10 h-10 inline-block mr-2 p-2 border-2 border-gray-600 rounded-full bg-darkBackground-400 hover:bg-darkBackground-100">
+            <Link to="#"> <FaPinterest className="w-5 h-5 text-gray-600"/></Link>
+             
+            </div>
+            <div className="w-10 h-10 inline-block mr-2 p-2 border-2 border-gray-600 rounded-full bg-darkBackground-400 hover:bg-darkBackground-100">
+            <Link to="#"> <FaLinkedin className="w-5 h-5 text-gray-600"/></Link>
+            
+            </div>
           </div>
+        </div>
+        <div className="inline-block text-center pt-4 pb-8 text-xs text-gray-400 ">
+            Copyright <span className=" inline-block w-3 h-3 pt-0.5 text-red-600"><FaHeart /></span>&nbsp;by Ashish <span className="inline-block w-3 h-3 pt-0.5 text-gray-400"><FaRegCopyright  /></span>
+            <p className="pl-5 pr-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente rerum odio natus aperiam soluta quisquam cupiditate saepe itaque nesciunt officia ut earum laborum, voluptas omnis voluptate. Enim nulla dolores reprehenderit!</p>
         </div>
       </div>
     </>
